@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
 
 const tick = () => {
     //setTimeout(tick, 30); plus utilisé
-
+    console.log("hihi");
     for (let i = 0; i < frameList.length; i++) {
         const node = frameList[i];
         node.tick();
